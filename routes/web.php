@@ -26,6 +26,22 @@ Route::get('/vinyls', function () {
     return view('vinyls');
 });
 
+Route::get('/newArrivals', function () {
+    return view('newArrivals');
+});
+
+Route::get('/newArrivals', function () {
+    return view('newArrivals');
+});
+
+Route::get('/collection', function () {
+    return view('collection');
+});
+
+Route::get('/blog', function () {
+    return view('blog');
+});
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
