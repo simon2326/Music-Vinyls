@@ -15,7 +15,7 @@
     <meta name="msapplication-TileImage" content="assets/img/favicons/mstile-150x150.png">
     <meta name="theme-color" content="#ffffff">
 
-    <link href="assets/css/theme.css" rel="stylesheet" />
+    @vite(['resources/css/theme.css']);
 </head>
 <body id="vinilos">
   <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3 d-block"
