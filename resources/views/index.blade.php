@@ -25,7 +25,7 @@
   <meta name="theme-color" content="#ffffff">
 
   <!--<link href="assets/css/theme.css" rel="stylesheet" />-->
-  @vite(['resources/css/theme.css']);
+  @vite(['resources/css/theme.css', 'resources/js/theme.js', 'resources/js/alejo.js', 'resources/js/simon.js']);
 
 </head>
 
@@ -435,7 +435,6 @@
   <script src="assets/js/theme.js"></script>
   <script src="assets/js/simon.js"></script>
   <script src="assets/js/alejo.js"></script>
-
 
   <link href="https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600;700;800;900&amp;display=swap"
     rel="stylesheet">

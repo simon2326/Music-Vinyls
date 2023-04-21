@@ -16,7 +16,7 @@
   <meta name="msapplication-TileImage" content="assets/img/favicons/mstile-150x150.png">
   <meta name="theme-color" content="#ffffff">
 
-  @vite(['resources/css/theme.css']);
+  @vite(['resources/css/theme.css', 'resources/js/theme.js', 'resources/js/alejo.js', 'resources/js/simon.js']);
 </head>
 
 <body>
@@ -35,8 +35,8 @@
           <li class="nav-item px-2"><a class="nav-link fw-medium" href="/vinyls">Vinilos</a></li>
           <li class="nav-item px-2"><a class="nav-link fw-medium active" aria-current="page"
               href="NewArrivals">¡Lo Nuevo!</a></li>
-          <li class="nav-item px-2"><a class="nav-link fw-medium" href="Collection">Colección</a></li>
-          <li class="nav-item px-2"><a class="nav-link fw-medium" href="Blog()">Blog</a></li>
+          <li class="nav-item px-2"><a class="nav-link fw-medium" href="/collection">Colección</a></li>
+          <li class="nav-item px-2"><a class="nav-link fw-medium" href="/blog">Blog</a></li>
           <li class="nav-item px-2"><a class="nav-link fw-medium" onclick="toAPI()">Spotify Playlists</a></li>
         </ul>
         <form class="d-flex">
@@ -188,13 +188,13 @@
   <script>
     feather.replace();
   </script>
+
   <script src="assets/js/theme.js"></script>
+  <script src="assets/js/simon.js"></script>
   <script src="assets/js/alejo.js"></script>
 
   <link href="https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600;700;800;900&amp;display=swap"
     rel="stylesheet">
 
-
 </body>
-
 </html>

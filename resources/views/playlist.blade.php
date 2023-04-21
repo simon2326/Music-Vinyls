@@ -15,7 +15,7 @@
     <link rel="manifest" href="assets/img/favicons/manifest.json">
     <meta name="msapplication-TileImage" content="assets/img/favicons/mstile-150x150.png">
     <meta name="theme-color" content="#ffffff">
-    @vite(['resources/css/theme.css']);
+    @vite(['resources/css/theme.css', 'resources/js/theme.js', 'resources/js/alejo.js', 'resources/js/simon.js']);
 
 </head>
 
@@ -126,6 +126,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+
     <script src="assets/js/theme.js"></script>
     <script src="assets/js/simon.js"></script>
     <script src="assets/js/alejo.js"></script>
