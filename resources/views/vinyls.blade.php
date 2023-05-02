@@ -16,6 +16,7 @@
     <meta name="theme-color" content="#ffffff">
 
     @vite(['resources/css/theme.css', 'resources/js/theme.js', 'resources/js/alejo.js', 'resources/js/simon.js']);
+    
 </head>
 <body id="vinilos">
   <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3 d-block"

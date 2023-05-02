@@ -9791,6 +9791,10 @@ fieldset:disabled .btn {
   text-align: center;
 }
 
+.df{
+  color: rgba(0, 0, 0, 0.05);
+}
+
 .fs-1#result{
   font-size: 1.2rem !important;
   padding-bottom: 1%;

@@ -7,7 +7,8 @@ const registro = document.getElementById("btn_enviar_registro");
 const cierre = document.getElementById('logout');
 const form_registro = document.getElementById('form_registro');
 const btn_iniciar_sesion = document.getElementById("btn_iniciar_sesion");
-const login_form = document.getElementById('frm_login');
+//const login_form = document.getElementById('frm_login');
+const login_form = document.getElementById('login_nuevo');
 const mifoto = document.getElementById("mifoto");
 const mifotoapi = document.getElementById('mifotoapi');
 
@@ -26,22 +27,21 @@ function registrar() {
     let nombre = document.getElementById("nombre");
     let apellido = document.getElementById("apellido");
     let usuario = document.getElementById("usuario");
-    let celular = document.getElementById("celular");
-    let correo = document.getElementById("email");
-    let genero = document.getElementById("genero");
+    //let celular = document.getElementById("celular");
+    //let correo = document.getElementById("email");
+    //let genero = document.getElementById("genero");
     let clave = document.getElementById("clave1");
     let clave2 = document.getElementById("clave2");
 
-    if (nombre.value != "" && apellido.value != "" && usuario.value != "" &&
-        celular.value != "" && correo.value != "" && genero.value != "" &&
-        clave.value != "" && clave2.value != "" && clave.value === clave2.value) {
+    if (nombre.value != "" && apellido.value != "" && usuario.value != ""
+        && genero.value != "" && clave.value != "" && clave2.value != "" && clave.value === clave2.value) {
 
         miUser = {
             nombre: nombre.value,
             apellido: apellido.value,
             usuario: usuario.value,
-            celular: celular.value,
-            correo: correo.value,
+            //celular: celular.value,
+            //correo: correo.value,
             genero: genero.value,
             clave: md5(clave.value)
         };

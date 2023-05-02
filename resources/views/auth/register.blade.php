@@ -1,3 +1,6 @@
+<title>Regístrate</title>
+<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicons/vinyl.ico">
+
 <x-guest-layout>
     <form method="POST" action="{{ route('register') }}">
         @csrf
